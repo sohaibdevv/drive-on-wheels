@@ -1,37 +1,37 @@
-import Golf6 from "../images/cars-big/golf6.jpg";
-import AudiA1 from "../images/cars-big/audia1.jpg";
+import Vitz from "../images/cars-big/vitz.jpg";
+import City from "../images/cars-big/city.jpg";
+import Civic from "../images/cars-big/civic.jpg";
 import Toyota from "../images/cars-big/toyotacamry.jpg";
-import Bmw320 from "../images/cars-big/bmw320.jpg";
-import Benz from "../images/cars-big/benz.jpg";
-import Passat from "../images/cars-big/passatcc.jpg";
+import Yaris from "../images/cars-big/yaris.jpg";
+import Picanto from "../images/cars-big/picanto.png";
 
 export const CAR_DATA = [
   [
     {
-      name: "VW Golf 6",
-      price: "37",
-      img: Golf6,
-      model: "Golf 6",
-      mark: "Volkswagen",
-      year: "2008",
+      name: "Honda City",
+      price: "40",
+      img: City,
+      model: "Honda",
+      mark: "Honda",
+      year: "2020",
       doors: "4/5",
       air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
+      transmission: "automatic",
+      fuel: "petrol",
     },
   ],
   [
     {
-      name: "Audi A1 S-Line",
-      price: "45",
-      img: AudiA1,
-      model: "Audi",
-      mark: "A1",
-      year: "2012",
+      name: "Toyota Vitz",
+      price: "28",
+      img: Vitz,
+      model: "Vitz",
+      mark: "Toyota",
+      year: "2020",
       doors: "4/5",
       air: "Yes",
-      transmission: "Manual",
-      fuel: "Gasoline",
+      transmission: "Automatic",
+      fuel: "petrol",
     },
   ],
   [
@@ -50,44 +50,44 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "BMW 320 ModernLine",
+      name: "Honda Civic",
       price: "35",
-      img: Bmw320,
-      model: "320",
-      mark: "BMW",
-      year: "2012",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "Mercedes-Benz GLK",
-      price: "50",
-      img: Benz,
-      model: "Benz GLK",
-      mark: "Mercedes",
-      year: "2006",
-      doors: "4/5",
-      air: "Yes",
-      transmission: "Manual",
-      fuel: "Diesel",
-    },
-  ],
-  [
-    {
-      name: "VW Passat CC",
-      price: "25",
-      img: Passat,
-      model: "Passat CC",
-      mark: "Volkswagen",
-      year: "2008",
+      img: Civic,
+      model: "2020",
+      mark: "Honda",
+      year: "2020",
       doors: "4/5",
       air: "Yes",
       transmission: "Automatic",
-      fuel: "Gasoline",
+      fuel: "petrol",
+    },
+  ],
+  [
+    {
+      name: "Toyota Yaris",
+      price: "35",
+      img: Yaris,
+      model: "Yaris",
+      mark: "Toyota",
+      year: "2006",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "petrol",
+    },
+  ],
+  [
+    {
+      name: "KIA Picanto",
+      price: "25",
+      img: Picanto,
+      model: "Picanto",
+      mark: "KIA",
+      year: "2020",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "petrol",
     },
   ],
 ];

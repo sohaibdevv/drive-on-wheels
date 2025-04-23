@@ -1,11 +1,12 @@
+
 import Footer from "../components/Footer";
 import HeroPages from "../components/HeroPages";
-import CarImg1 from "../images/cars-big/audi-box.png";
-import CarImg2 from "../images/cars-big/golf6-box.png";
-import CarImg3 from "../images/cars-big/toyota-box.png";
-import CarImg4 from "../images/cars-big/bmw-box.png";
-import CarImg5 from "../images/cars-big/benz-box.png";
-import CarImg6 from "../images/cars-big/passat-box.png";
+import CarImg1 from "../images/cars-big/vitz-box.jpg";
+import CarImg2 from "../images/cars-big/city-box.jpg";
+import CarImg3 from "../images/cars-big/civic-box.jpg";
+import CarImg4 from "../images/cars-big/toyota-box.png";
+import CarImg5 from "../images/cars-big/Yaris-box.jpg";
+import CarImg6 from "../images/cars-big/picanto-box.jpg";
 import { Link } from "react-router-dom";
 import { IconCar, IconPhone, IconStar } from "@tabler/icons-react";
 
@@ -22,7 +23,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Audi A1</p>
+                      <p>Vitz</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -38,16 +39,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Audi
+                      <IconCar /> &nbsp; Toyota
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      Petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -65,7 +66,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Golf 6</p>
+                      <p>City</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -81,16 +82,16 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; VW
+                      <IconCar /> &nbsp; Honda
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
-                      Diesel &nbsp; <IconCar />
+                      petrol &nbsp; <IconCar />
                     </span>
                   </div>
                   <div className="models-div__box__descr__name-price__btn">
@@ -108,7 +109,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Toyota</p>
+                      <p>Civic</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -124,13 +125,13 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Camry
+                      <IconCar /> &nbsp; Civic
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <IconCar />
@@ -151,7 +152,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>BMW 320</p>
+                      <p>camry</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -167,7 +168,7 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; ModernLine
+                      <IconCar /> &nbsp; Toyota
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
@@ -194,7 +195,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>Mercedes</p>
+                      <p>Picanto</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -210,13 +211,13 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; Benz GLK
+                      <IconCar /> &nbsp; KIA
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <IconCar />
@@ -237,7 +238,7 @@ function Models() {
                 <div className="models-div__box__descr">
                   <div className="models-div__box__descr__name-price">
                     <div className="models-div__box__descr__name-price__name">
-                      <p>VW Passat</p>
+                      <p>Picanto</p>
                       <span>
                         <IconStar width={15} height={15} />
                         <IconStar width={15} height={15} />
@@ -253,13 +254,13 @@ function Models() {
                   </div>
                   <div className="models-div__box__descr__name-price__details">
                     <span>
-                      <IconCar /> &nbsp; CC
+                      <IconCar /> &nbsp; KIA
                     </span>
                     <span style={{ textAlign: "right" }}>
                       4/5 &nbsp; <IconCar />
                     </span>
                     <span>
-                      <IconCar /> &nbsp; Manual
+                      <IconCar /> &nbsp; Automatic
                     </span>
                     <span style={{ textAlign: "right" }}>
                       Diesel &nbsp; <IconCar />

@@ -21,6 +21,7 @@
     img {
       width: 100%;
       height: 100%;
+      border-radius: 1.5rem;
     }
   }
 
@@ -75,12 +76,12 @@
       color: white;
       padding: 1.5rem 3rem;
       border-radius: 3px;
-      box-shadow: 0 10px 15px 0 rgb(255 83 48 / 35%);
+      box-shadow: 0 10px 15px 0 #c1f11d;
       transition: all 0.3s;
 
       &:hover {
-        box-shadow: 0 10px 15px 0 rgb(255 83 48 / 50%);
-        background-color: #fa4226;
+        box-shadow: 0 10px 15px 0 #9dd90d;
+        background-color: #c1f11d;
       }
     }
 

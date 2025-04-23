@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import CarAudi from "../images/cars-big/audia1.jpg";
-import CarGolf from "../images/cars-big/golf6.jpg";
-import CarToyota from "../images/cars-big/toyotacamry.jpg";
-import CarBmw from "../images/cars-big/bmw320.jpg";
-import CarMercedes from "../images/cars-big/benz.jpg";
-import CarPassat from "../images/cars-big/passatcc.jpg";
+import Vitz from "../images/cars-big/vitz.jpg";
+import City from "../images/cars-big/city.jpg";
+import Civic from "../images/cars-big/civic.jpg";
+import Toyota from "../images/cars-big/toyotacamry.jpg";
+import Yaris from "../images/cars-big/yaris.jpg";
+import Picanto from "../images/cars-big/picanto.png";
 import { IconCar, IconInfoCircleFilled, IconX } from "@tabler/icons-react";
 import { IconMapPinFilled } from "@tabler/icons-react";
 import { IconCalendarEvent } from "@tabler/icons-react";
@@ -125,23 +125,23 @@ function BookCar() {
   // based on value name show car img
   let imgUrl;
   switch (carImg) {
-    case "Audi A1 S-Line":
-      imgUrl = CarAudi;
+    case "Toyota Vitz":
+      imgUrl = Vitz;
       break;
-    case "VW Golf 6":
-      imgUrl = CarGolf;
+    case "Honda City":
+      imgUrl = City;
       break;
     case "Toyota Camry":
-      imgUrl = CarToyota;
+        imgUrl = Toyota;
       break;
-    case "BMW 320 ModernLine":
-      imgUrl = CarBmw;
+    case "Honda Civic":
+      imgUrl = Civic;
       break;
-    case "Mercedes-Benz GLK":
-      imgUrl = CarMercedes;
+    case "Toyota Yaris":
+      imgUrl = Yaris;
       break;
-    case "VW Passat CC":
-      imgUrl = CarPassat;
+    case "KIA Picanto":
+      imgUrl = Picanto;
       break;
     default:
       imgUrl = "";
@@ -184,14 +184,14 @@ function BookCar() {
                   </label>
                   <select value={carType} onChange={handleCar}>
                     <option>Select your car type</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
+                    <option value="Toyota Vitz">Toyota Vitz</option>
+                    <option value="Honda City">Honda City</option>
                     <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="BMW 320 ModernLine">
-                      BMW 320 ModernLine
+                    <option value="Honda Civic">
+                      Honda Civic
                     </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
+                    <option value="Toyota Yaris">Toyota Yaris</option>
+                    <option value="KIA Picanto">KIA Picanto</option>
                   </select>
                 </div>
 
@@ -202,11 +202,11 @@ function BookCar() {
                   </label>
                   <select value={pickUp} onChange={handlePick}>
                     <option>Select pick up location</option>
-                    <option>Belgrade</option>
-                    <option>Novi Sad</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Karachi</option>
+                    <option>Islamabad</option>
+                    <option>Lahore</option>
+                    <option>Multan</option>
+                    <option>Rawalpindi</option>
                   </select>
                 </div>
 
@@ -217,11 +217,11 @@ function BookCar() {
                   </label>
                   <select value={dropOff} onChange={handleDrop}>
                     <option>Select drop off location</option>
-                    <option>Novi Sad</option>
-                    <option>Belgrade</option>
-                    <option>Nis</option>
-                    <option>Kragujevac</option>
-                    <option>Subotica</option>
+                    <option>Islamabad</option>
+                    <option>Rawalpindi</option>
+                    <option>Karachi</option>
+                    <option>Lahore</option>
+                    <option>Multan</option>
                   </select>
                 </div>
 

@@ -37,7 +37,7 @@ function PickCar() {
                     btnID("btn1");
                   }}
                 >
-                  Audi A1 S-Line
+                  Toyota Vitz
                 </button>
                 <button
                   className={`${coloringButton("btn2")}`}
@@ -47,7 +47,7 @@ function PickCar() {
                     btnID("btn2");
                   }}
                 >
-                  VW Golf 6
+                  Honda City
                 </button>
                 <button
                   className={`${coloringButton("btn3")}`}
@@ -67,7 +67,7 @@ function PickCar() {
                     btnID("btn4");
                   }}
                 >
-                  BMW 320 ModernLine
+                  Honda Civic
                 </button>
                 <button
                   className={`${coloringButton("btn5")}`}
@@ -77,7 +77,7 @@ function PickCar() {
                     btnID("btn5");
                   }}
                 >
-                  Mercedes-Benz GLK
+                  Toyota Yaris
                 </button>
                 <button
                   className={`${coloringButton("btn6")}`}
@@ -87,7 +87,7 @@ function PickCar() {
                     btnID("btn6");
                   }}
                 >
-                  VW Passat CC
+                  KIA Picanto
                 </button>
               </div>
 
