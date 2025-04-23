@@ -23,11 +23,7 @@ function About() {
               <h3>About Company</h3>
               <h2>You start the engine and your adventure begins</h2>
               <p>
-                Certain but she but shyness why cottage. Guy the put instrument
-                sir entreaties affronting. Pretended exquisite see cordially the
-                you. Weeks quiet do vexed or whose. Motionless if no to
-                affronting imprudence no precaution. My indulged as disposal
-                strongly attended.
+              From the moment you choose us, your journey is our priority. Discover our commitment to quality vehicles, exceptional service, and a straightforward rental process designed to get you on the road and exploring without delay.
               </p>
               <div className="about-main__text__icons">
                 <div className="about-main__text__icons__box">
